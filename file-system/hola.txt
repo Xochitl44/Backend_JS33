@@ -1,0 +1,3 @@
+Hola Koders!
+
+We are learning about the file synce in node.js. So far we've seen how to write and read a file.
