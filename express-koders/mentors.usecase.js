@@ -44,6 +44,10 @@ function add (newMentor) {
     const dbData = db.read()
 
     //condition so that when you use method POST, it knows that what is being entered is NOT a koder
+    /*if (!dbData.mentors) {
+        dbData.mentors = []
+    }
+*/
     while (!dbData.mentors) {
         dbData.mentors = []
     }
